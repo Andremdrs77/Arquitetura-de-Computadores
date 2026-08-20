@@ -3,9 +3,9 @@ main:
 	addi $5, $0, 100
 	addi $6, $0, 10
 	
-  addi $2, $0, 5
-  syscall
-
+	addi $2, $0, 5
+	syscall
+	
 	div $2, $5
 	mfhi $2
 	mflo $7
@@ -21,5 +21,5 @@ main:
 	addi $2, $0, 1
 	syscall
 	
-  addi $2, $0, 10
-  syscall
+	addi $2, $0, 10
+	syscall
